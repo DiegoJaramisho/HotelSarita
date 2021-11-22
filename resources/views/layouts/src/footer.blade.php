@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 text-center text-md-left">
-                <h1 class="font-weight-bold" style="font-size: 2rem; color:#fff;">Hotel Sarita</h1>
+                <h1 class="font-weight-bold" style="font-size: 2rem; color:#fff;">Hostal Sarita</h1>
                 <p class="color-grey mt-4">Avenue Street 3284<br>Thessaloniki</p>
             </div>
             <div class="col-md-4 text-center text-md-left">

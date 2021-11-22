@@ -23,7 +23,7 @@
     <div class="menu">
         <a href="index.html" >
             <div class="logo">
-                <h1 class="text-center font-weight-bold" style="font-size: 2.5rem; color:#fff;">Hotel Sarita</h1>
+                <h1 class="text-center font-weight-bold" style="font-size: 2.5rem; color:#fff;">Hostal Sarita</h1>
             </div>
         </a>
         <ul>

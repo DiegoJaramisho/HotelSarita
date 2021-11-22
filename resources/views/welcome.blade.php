@@ -83,16 +83,8 @@
         <div class="slideshow">
             <div class="slide slide--current parallax-top">
                 <figure class="slide__figure">
-                    {{-- <div class="slide__figure-inner">
-                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/1.jpg')}})"></div>
-                        <div class="slide__figure-reveal"></div>
-                    </div> --}}
-                </figure>
-            </div>
-            <div class="slide parallax-top">
-                <figure class="slide__figure">
                     <div class="slide__figure-inner">
-                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/2.jpg')}})"></div>
+                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/01.jpg')}})"></div>
                         <div class="slide__figure-reveal"></div>
                     </div>
                 </figure>
@@ -100,7 +92,15 @@
             <div class="slide parallax-top">
                 <figure class="slide__figure">
                     <div class="slide__figure-inner">
-                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/3.jpg')}})"></div>
+                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/02.jpg')}})"></div>
+                        <div class="slide__figure-reveal"></div>
+                    </div>
+                </figure>
+            </div>
+            <div class="slide parallax-top">
+                <figure class="slide__figure">
+                    <div class="slide__figure-inner">
+                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/03.jpg')}})"></div>
                         <div class="slide__figure-reveal"></div>
                     </div>
                 </figure>
@@ -123,10 +123,10 @@
                 <button class="nav__button">
                     <span class="nav__button-text"></span>
                 </button>
-                <h2 class="nav__chapter">discover your paradise</h2>
+                <h2 class="nav__chapter">descubre tu paraiso</h2>
                 <div class="toc">
                     <a class="toc__item" href="#entry-1">
-                        <span class="toc__item-title">discover your paradise</span>
+                        <span class="toc__item-title">descubre tu paraiso</span>
                     </a>
                     <a class="toc__item" href="#entry-2">
                         <span class="toc__item-title">unpretentious comfort</span>
@@ -148,15 +148,15 @@
 				<div class="col-md-6 align-self-center">
 					<div class="row justify-content-center">
 						<div class="col-10">
-							<div class="subtitle text-center mb-4">hotel Thalia</div>
-							<h2 class="text-center">Here is a tribute to good life!</h2>
+							<div class="subtitle text-center mb-4">hostal sarita</div>
+							<h2 class="text-center">Un lugar perfecto para descansar</h2>
 							<p class="text-center mt-5">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6 mt-4 mt-md-0">
 					<div class="img-wrap">
-						<img src="img/rooms.png" alt="">
+						<img src="{{asset('assets/img/fotos/04.jpg')}}" alt="">
 					</div>
 				</div>
 			</div>
