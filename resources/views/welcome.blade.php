@@ -10,7 +10,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-10 col-sm-8 parallax-fade-top">
-                        <div class="hero-text">Discover your paradise under the Greek sky</div>
+                        <div class="hero-text">El mejor hostal de la Tatacoa</div>
                     </div>
                     <div class="col-12 mt-3 mb-5 parallax-fade-top">
                         <div class="hero-stars">
@@ -83,10 +83,10 @@
         <div class="slideshow">
             <div class="slide slide--current parallax-top">
                 <figure class="slide__figure">
-                    <div class="slide__figure-inner">
+                    {{-- <div class="slide__figure-inner">
                         <div class="slide__figure-img" style="background-image: url({{asset('assets/img/1.jpg')}})"></div>
                         <div class="slide__figure-reveal"></div>
-                    </div>
+                    </div> --}}
                 </figure>
             </div>
             <div class="slide parallax-top">
