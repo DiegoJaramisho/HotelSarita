@@ -84,7 +84,7 @@
             <div class="slide slide--current parallax-top">
                 <figure class="slide__figure">
                     <div class="slide__figure-inner">
-                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/01.jpg')}})"></div>
+                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/05.jpg')}})"></div>
                         <div class="slide__figure-reveal"></div>
                     </div>
                 </figure>
@@ -92,7 +92,7 @@
             <div class="slide parallax-top">
                 <figure class="slide__figure">
                     <div class="slide__figure-inner">
-                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/02.jpg')}})"></div>
+                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/01.jpeg')}})"></div>
                         <div class="slide__figure-reveal"></div>
                     </div>
                 </figure>
