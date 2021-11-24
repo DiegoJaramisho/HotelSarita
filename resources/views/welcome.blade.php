@@ -92,7 +92,7 @@
             <div class="slide parallax-top">
                 <figure class="slide__figure">
                     <div class="slide__figure-inner">
-                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/01.jpeg')}})"></div>
+                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/06.jpeg')}})"></div>
                         <div class="slide__figure-reveal"></div>
                     </div>
                 </figure>
@@ -168,7 +168,8 @@
 			<div class="row mx-0">
 				<div class="col-xl-6 px-0">
 					<div class="img-wrap" id="rev-1">
-						<img src="img/room1.jpg" alt="">
+						<img src="{{asset('assets/img/fotos/09.jpg')}}" alt="">
+						{{-- {{asset('assets/img/fotos/09.jpeg')}} --}}
 						<div class="text-element-over">private pool suite</div>
 					</div>
 				</div>
@@ -194,7 +195,7 @@
 				</div>
 				<div class="col-xl-6 px-0 order-first order-xl-last mt-5 mt-xl-0">
 					<div class="img-wrap" id="rev-2">
-						<img src="img/room2.jpg" alt="">
+						<img src="{{asset('assets/img/fotos/08.jpg')}}" alt="">
 						<div class="text-element-over">sea view suite</div>
 					</div>
 				</div>
