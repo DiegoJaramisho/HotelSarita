@@ -31,6 +31,9 @@
 	<link rel="stylesheet" href="{{asset('assets/css/style.css')}}"/>
 	<link rel="stylesheet" href="{{asset('assets/css/colors/color.css')}}"/>
 
+    <!-- myStyles -->
+    <link rel="stylesheet" href="{{asset('assets/css/myStyles.css')}}">
+
 	<!-- Favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="favicon.png">

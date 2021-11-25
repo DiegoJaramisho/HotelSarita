@@ -84,7 +84,7 @@
             <div class="slide slide--current parallax-top">
                 <figure class="slide__figure">
                     <div class="slide__figure-inner">
-                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/desierto.jpeg')}}); background-size: cover;"></div>
+                        <div class="slide__figure-img img-banner" style="background-image: url({{asset('assets/img/fotos/desierto.jpeg')}}); background-size: cover;"></div>
                         <div class="slide__figure-reveal"></div>
                     </div>
                 </figure>
@@ -92,7 +92,7 @@
             <div class="slide parallax-top">
                 <figure class="slide__figure">
                     <div class="slide__figure-inner">
-                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/06.jpeg')}}); background-size: 70%;"></div>
+                        <div class="slide__figure-img img-banner" style="background-image: url({{asset('assets/img/fotos/06.jpeg')}}); background-size: cover;"></div>
                         <div class="slide__figure-reveal"></div>
                     </div>
                 </figure>
@@ -100,7 +100,7 @@
             <div class="slide parallax-top">
                 <figure class="slide__figure">
                     <div class="slide__figure-inner">
-                        <div class="slide__figure-img" style="background-image: url({{asset('assets/img/fotos/03.jpg')}}); background-size: 70%;"></div>
+                        <div class="slide__figure-img img-banner" style="background-image: url({{asset('assets/img/fotos/03.jpg')}}); background-size: cover;"></div>
                         <div class="slide__figure-reveal"></div>
                     </div>
                 </figure>
@@ -156,7 +156,7 @@
 				</div>
 				<div class="col-md-6 mt-4 mt-md-0">
 					<div class="img-wrap">
-						<img src="{{asset('assets/img/fotos/04.jpg')}}" alt="">
+						<img src="{{asset('assets/img/fotos/01.jpg')}}"  alt="">
 					</div>
 				</div>
 			</div>
@@ -168,7 +168,7 @@
 			<div class="row mx-0">
 				<div class="col-xl-6 px-0">
 					<div class="img-wrap" id="rev-1">
-						<img src="{{asset('assets/img/fotos/09.jpg')}}" alt="">
+						<img src="{{asset('assets/img/fotos/09.jpeg')}}" alt="">
 						{{-- {{asset('assets/img/fotos/09.jpeg')}} --}}
 						<div class="text-element-over">private pool suite</div>
 					</div>
@@ -178,7 +178,7 @@
 						<div class="col-10 col-xl-8 text-center">
 							<h3 class="text-center">Private pool suite</h3>
 							<p class="text-center mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-5 btn btn-primary" href="search.html">check availability</a>
+							<a class="mt-5 btn btn-primary" href="javascript:void(0)">Ver Habitación</a>
 						</div>
 					</div>
 				</div>
@@ -189,7 +189,7 @@
 						<div class="col-10 col-xl-8 text-center">
 							<h3 class="text-center">Sea view suite</h3>
 							<p class="text-center mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-5 btn btn-primary" href="search.html">check availability</a>
+							<a class="mt-5 btn btn-primary" href="javascript:void(0)">Ver Habitación</a>
 						</div>
 					</div>
 				</div>
@@ -246,13 +246,13 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-8 align-self-center">
-					<div class="subtitle with-line text-center mb-4">elegant suites</div>
-					<h3 class="text-center padding-bottom-small">Unpretentious luxury</h3>
+					<div class="subtitle with-line text-center mb-4">Hostal Sarita</div>
+					<h3 class="text-center padding-bottom-small">Servicios</h3>
 				</div>
 				<div class="section clearfix"></div>
 				<div class="col-sm-6 col-lg-4">
 					<div class="services-box text-center">
-						<img src="img/1.svg" alt="">
+						<img src="{{asset('assets/img/1.svg')}}" alt="">
 						<h5 class="mt-2">smoking free</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
@@ -260,7 +260,7 @@
 				</div>
 				<div class="col-sm-6 col-lg-4 mt-5 mt-sm-0">
 					<div class="services-box text-center">
-						<img src="img/2.svg" alt="">
+						<img src="{{asset('assets/img/1.svg')}}" alt="">
 						<h5 class="mt-2">king beds</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
@@ -268,15 +268,15 @@
 				</div>
 				<div class="col-sm-6 col-lg-4 mt-5 mt-lg-0">
 					<div class="services-box text-center">
-						<img src="img/3.svg" alt="">
+						<img src="{{asset('assets/img/1.svg')}}" alt="">
 						<h5 class="mt-2">Yacht rental</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
 					</div>
 				</div>
-				<div class="col-sm-6 col-lg-4 mt-5">
+				{{-- <div class="col-sm-6 col-lg-4 mt-5">
 					<div class="services-box text-center">
-						<img src="img/4.svg" alt="">
+						<img src="{{asset('assets/img/1.svg')}}" alt="">
 						<h5 class="mt-2">welcome drink</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
@@ -284,7 +284,7 @@
 				</div>
 				<div class="col-sm-6 col-lg-4 mt-5">
 					<div class="services-box text-center">
-						<img src="img/5.svg" alt="">
+						<img src="{{asset('assets/img/1.svg')}}" alt="">
 						<h5 class="mt-2">swimming pool</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
@@ -292,17 +292,18 @@
 				</div>
 				<div class="col-sm-6 col-lg-4 mt-5">
 					<div class="services-box text-center">
-						<img src="img/6.svg" alt="">
+						<img src="{{asset('assets/img/1.svg')}}" alt="">
 						<h5 class="mt-2">food included</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
 					</div>
-				</div>
+				</div> --}}
 			</div>
 		</div>
 	</div>
 
-	<div class="section padding-top-bottom-big over-hide">
+    <!-- checking disponibilidad -->
+	{{-- <div class="section padding-top-bottom-big over-hide">
 		<div class="parallax" style="background-image: url('img/4.jpg')"></div>
 		<div class="section z-bigger">
 			<div class="container">
@@ -338,14 +339,14 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
 	<div class="section padding-top-bottom over-hide background-grey">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-8 align-self-center">
-					<div class="subtitle with-line text-center mb-4">luxury</div>
-					<h3 class="text-center padding-bottom-small">Our rooms</h3>
+					<div class="subtitle with-line text-center mb-4">Hostal sarita</div>
+					<h3 class="text-center padding-bottom-small">Nuestras habitaciones</h3>
 				</div>
 				<div class="section clearfix"></div>
 				<div class="col-md-6">
@@ -453,7 +454,7 @@
 	</div>
 
 	<div class="section padding-top-bottom-big over-hide">
-		<div class="parallax" style="background-image: url('img/5.jpg')"></div>
+		<div class="parallax" style="background-image: url({{asset('assets/img/fotos/19.jpg')}})"></div>
 		<div class="section z-bigger">
 			<div class="container">
 				<div class="row justify-content-center">
@@ -484,7 +485,8 @@
 		</div>
 	</div>
 
-	<div class="section padding-top-bottom-small background-dark-2 over-hide">
+    <!-- video -->
+	{{-- <div class="section padding-top-bottom-small background-dark-2 over-hide">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
@@ -494,21 +496,21 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
 	<div class="section padding-top-bottom background-grey over-hide">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-8 align-self-center">
-					<div class="subtitle with-line text-center mb-4">Excellent restaurant</div>
-					<h3 class="text-center padding-bottom-small">Dining &amp; Bars</h3>
+					<div class="subtitle with-line text-center mb-4">Hostal Sarita</div>
+					<h3 class="text-center padding-bottom-small">Excelente Restaurante</h3>
 				</div>
 				<div class="section clearfix"></div>
 			</div>
 			<div class="row background-white p-0 m-0">
 				<div class="col-xl-6 p-0">
 					<div class="img-wrap" id="rev-3">
-						<img src="img/rest-1.jpg" alt="">
+						<img src="{{asset('assets/img/rest-1.jpg')}}" alt="">
 					</div>
 				</div>
 				<div class="col-xl-6 p-0 align-self-center">
@@ -516,7 +518,7 @@
 						<div class="col-9 pt-4 pt-xl-0 pb-5 pb-xl-0 text-center">
 							<h5 class="">beach restaurant</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="restaurant.html">explore</a>
+							<a class="mt-1 btn btn-primary" href="javascript:void(0)">explore</a>
 						</div>
 					</div>
 				</div>
@@ -527,13 +529,13 @@
 						<div class="col-9 pt-4 pt-xl-0 pb-5 pb-xl-0 text-center">
 							<h5 class="">pool restaurant</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="restaurant.html">explore</a>
+							<a class="mt-1 btn btn-primary" href="javascript:void(0)">explore</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-6 order-first order-xl-last p-0">
 					<div class="img-wrap" id="rev-4">
-						<img src="img/rest-2.jpg" alt="">
+						<img src="{{asset('assets/img/rest-1.jpg')}}" alt="">
 					</div>
 				</div>
 			</div>
@@ -544,8 +546,8 @@
 		<div class="container">
 			<div class="row justify-content-center padding-bottom-smaller">
 				<div class="col-md-8">
-					<div class="subtitle with-line text-center mb-4">get in touch</div>
-					<h3 class="text-center padding-bottom-small">drop us a line</h3>
+					<div class="subtitle with-line text-center mb-4">Hostal Sarita</div>
+					<h3 class="text-center padding-bottom-small">Contactanos</h3>
 				</div>
 				<div class="section clearfix"></div>
 				<div class="col-md-6 col-lg-4">

@@ -1093,10 +1093,10 @@ a:focus {
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	/* background-position: 50% 50%; */
 	background-size: cover;
 	z-index: 10;
-	opacity: 0.4;
+	opacity: 1;
 	will-change: transform;
 }
 .slide__figure-reveal {

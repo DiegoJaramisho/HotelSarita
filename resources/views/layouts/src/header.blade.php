@@ -21,28 +21,26 @@
         </div>
     </div>
     <div class="menu">
-        <a href="index.html" >
+        <a href="{{route('welcome')}}" >
             <div class="logo">
                 <h1 class="text-center font-weight-bold" style="font-size: 2.5rem; color:#fff;">Hostal Sarita</h1>
             </div>
         </a>
         <ul>
             <li>
-                <a class="curent-page" href="#" >home</a>
-                <ul>
-                    <li><a class="curent-page" href="index.html">Flip Slider</a></li>
-                    <li><a href="index-1.html">Video Background</a></li>
-                    <li><a href="index-2.html">Moving Image</a></li>
-                </ul>
+                <a class="{{ Request::routeIs('welcome') ? 'curent-page' : ''}}" href="{{route('welcome')}}" >Inicio</a>
             </li>
             <li>
+                <a class="{{ Request::routeIs('habitaciones') ? 'curent-page' : ''}}" href="{{route('habitaciones')}}">Habitaciones</a>
+            </li>
+            {{-- <li>
                 <a href="#" >rooms</a>
                 <ul>
                     <li><a href="rooms.html">Our Rooms</a></li>
                     <li><a href="rooms-gallery.html">Room Gallery</a></li>
                     <li><a href="rooms-video.html">Room Video</a></li>
                 </ul>
-            </li>
+            </li> --}}
             <li>
                 <a href="#" >pages</a>
                 <ul>

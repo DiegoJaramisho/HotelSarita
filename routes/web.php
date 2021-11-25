@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Habitaciones\HabitacionesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,4 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 
-});
+})->name('welcome');
+
+Route::get('/Habitaciones',[ HabitacionesController::class,'index'])->name('habitaciones');
