@@ -42,16 +42,7 @@
                 </ul>
             </li> --}}
             <li>
-                <a href="#" >pages</a>
-                <ul>
-                    <li><a href="explore.html">Explore</a></li>
-                    <li><a href="search.html">Search</a></li>
-                    <li><a href="tandc.html">Terms &amp; Conditions</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="restaurant.html">Restaurant</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                </ul>
+                <a class="{{ Request::routeIs('servicios') ? 'curent-page' : ''}}" href="{{route('servicios')}}">Services</a>
             </li>
             <li>
                 <a href="about.html">about us</a>

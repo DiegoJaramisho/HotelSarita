@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Habitaciones\HabitacionesController;
+use App\Http\Controllers\Servicios\ServiciosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,4 @@ Route::get('/', function () {
 })->name('welcome');
 
 Route::get('/Habitaciones',[ HabitacionesController::class,'index'])->name('habitaciones');
+Route::get('/Servicios',[ServiciosController::class,'index'])->name('servicios');

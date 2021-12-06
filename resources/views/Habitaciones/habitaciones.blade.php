@@ -71,7 +71,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <img src="img/room3.jpg" alt="">
+                    <img src="{{asset('assets/img/fotos/07.jpeg')}}" alt="">
                     <div class="room-box-in">
                         <h5 class="">pool suite</h5>
                         <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
@@ -96,7 +96,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-o"></i>
                     </div>
-                    <img src="img/room4.jpg" alt="">
+                    <img src="{{asset('assets/img/fotos/08.jpg')}}" alt="">
                     <div class="room-box-in">
                         <h5 class="">small room</h5>
                         <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
@@ -121,7 +121,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <img src="img/room5.jpg" alt="">
+                    <img src="{{asset('assets/img/fotos/09.jpeg')}}" alt="">
                     <div class="room-box-in">
                         <h5 class="">Apartment</h5>
                         <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
@@ -146,7 +146,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <img src="img/room6.jpg" alt="">
+                    <img src="{{asset('assets/img/fotos/10.jpeg')}}" alt="">
                     <div class="room-box-in">
                         <h5 class="">big Apartment</h5>
                         <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
@@ -171,7 +171,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <img src="img/room5.jpg" alt="">
+                    <img src="{{asset('assets/img/fotos/11.jpeg')}}" alt="">
                     <div class="room-box-in">
                         <h5 class="">Apartment</h5>
                         <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
@@ -196,7 +196,7 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <img src="img/room6.jpg" alt="">
+                    <img src="{{asset('assets/img/fotos/12.jpeg')}}" alt="">
                     <div class="room-box-in">
                         <h5 class="">big Apartment</h5>
                         <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>

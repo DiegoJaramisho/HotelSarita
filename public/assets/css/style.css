@@ -201,11 +201,13 @@ mark{
 	position:relative;
 	width:100%;
 	display:block;
+
 }
 .img-wrap img {
 	width:100%;
 	height: auto;
 	display:block;
+    filter: brightness(50%);
 }
 .z-bigger  {
 	z-index:10;
@@ -2091,6 +2093,7 @@ select.form {
 	bottom: 0;
 	z-index: 1;
 	width:100%;
+    filter: brightness(50%);
 }
 
 .booking-sep-wrap{

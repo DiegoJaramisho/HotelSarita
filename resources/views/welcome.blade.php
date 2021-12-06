@@ -129,10 +129,10 @@
                         <span class="toc__item-title">descubre tu paraiso</span>
                     </a>
                     <a class="toc__item" href="#entry-2">
-                        <span class="toc__item-title">unpretentious comfort</span>
+                        <span class="toc__item-title">vive la aventura</span>
                     </a>
                     <a class="toc__item" href="#entry-3">
-                        <span class="toc__item-title">azure sea sparkling</span>
+                        <span class="toc__item-title">conecta con lo tradicional</span>
                     </a>
                 </div>
             </nav>
@@ -150,7 +150,7 @@
 						<div class="col-10">
 							<div class="subtitle text-center mb-4">hostal sarita</div>
 							<h2 class="text-center">Un lugar perfecto para descansar</h2>
-							<p class="text-center mt-5">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+							<p class="text-center mt-5">Ubicado en el municipio de Villavieja, cerca a la Cerveceria LA PLANTA BEER HUB y al DESIERTO DE LA TATACOA, contamos con el confort que necesitas para descansar y sentirte como en casa. </p>
 						</div>
 					</div>
 				</div>
@@ -176,8 +176,8 @@
 				<div class="col-xl-6 px-0 mt-4 mt-xl-0 align-self-center">
 					<div class="row justify-content-center">
 						<div class="col-10 col-xl-8 text-center">
-							<h3 class="text-center">Private pool suite</h3>
-							<p class="text-center mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
+							<h3 class="text-center">Habitaciones dobles</h3>
+							<p class="text-center mt-4">Contamos con habitaciones con dos camas perfectamente hubicadas con aire acondicionado, ultracomodas</p>
 							<a class="mt-5 btn btn-primary" href="javascript:void(0)">Ver Habitación</a>
 						</div>
 					</div>
@@ -359,9 +359,9 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<img src="{{asset('assets/img/room4.jpg')}}" alt="">
+						<img src="{{asset('assets/img/fotos/10.jpeg')}}" alt="">
 						<div class="room-box-in">
-							<h5 class="">pool suite</h5>
+							<h5 class="">Habitacion 1</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 130$</a>
                             {{-- iconos de servicios --}}
@@ -385,9 +385,9 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star-o"></i>
 						</div>
-						<img src="{{asset('assets/img/room4.jpg')}}" alt="">
+						<img src="{{asset('assets/img/fotos/09.jpeg')}}" alt="">
 						<div class="room-box-in">
-							<h5 class="">small room</h5>
+							<h5 class="">Habitacion 2</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 80$</a>
                             {{-- iconos de servicios --}}
@@ -411,9 +411,9 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<img src="{{asset('assets/img/room4.jpg')}}" alt="">
+						<img src="{{asset('assets/img/fotos/07.jpeg')}}" alt="">
 						<div class="room-box-in">
-							<h5 class="">Apartment</h5>
+							<h5 class="">Habitacion 1</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 110$</a>
                             {{-- iconos servicios --}}
@@ -429,7 +429,7 @@
 				</div>
 				<div class="col-md-6 mt-4">
 					<div class="room-box background-white">
-						<div class="room-name">suite diana</div>
+						<div class="room-name">Habitacion 2</div>
 						<div class="room-per">
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
@@ -437,7 +437,7 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<img src="{{asset('assets/img/room4.jpg')}}" alt="">
+						<img src="{{asset('assets/img/fotos/08.jpg')}}" alt="">
 						<div class="room-box-in">
 							<h5 class="">big Apartment</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
@@ -514,7 +514,7 @@
 			<div class="row background-white p-0 m-0">
 				<div class="col-xl-6 p-0">
 					<div class="img-wrap" id="rev-3">
-						<img src="{{asset('assets/img/rest-1.jpg')}}" alt="">
+						<img src="{{asset('assets/img/fotos/13.jpeg')}}" alt="">
 					</div>
 				</div>
 				<div class="col-xl-6 p-0 align-self-center">
@@ -539,7 +539,7 @@
 				</div>
 				<div class="col-xl-6 order-first order-xl-last p-0">
 					<div class="img-wrap" id="rev-4">
-						<img src="{{asset('assets/img/rest-1.jpg')}}" alt="">
+						<img src="{{asset('assets/img/fotos/14.jpeg')}}" alt="">
 					</div>
 				</div>
 			</div>
