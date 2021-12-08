@@ -170,7 +170,7 @@
 					<div class="img-wrap" id="rev-1">
 						<img src="{{asset('assets/img/fotos/09.jpeg')}}" alt="">
 						{{-- {{asset('assets/img/fotos/09.jpeg')}} --}}
-						<div class="text-element-over">private pool suite</div>
+						{{-- <div class="text-element-over">private pool suite</div> --}}
 					</div>
 				</div>
 				<div class="col-xl-6 px-0 mt-4 mt-xl-0 align-self-center">
@@ -178,7 +178,7 @@
 						<div class="col-10 col-xl-8 text-center">
 							<h3 class="text-center">Habitaciones dobles</h3>
 							<p class="text-center mt-4">Contamos con habitaciones con dos camas perfectamente hubicadas con aire acondicionado, ultracomodas</p>
-							<a class="mt-5 btn btn-primary" href="javascript:void(0)">Ver Habitación</a>
+							<a class="mt-5 btn btn-primary" href="javascript:void(0)">Reservar</a>
 						</div>
 					</div>
 				</div>
@@ -187,16 +187,16 @@
 				<div class="col-xl-6 px-0 mt-4 mt-xl-0 pb-5 pb-xl-0 align-self-center">
 					<div class="row justify-content-center">
 						<div class="col-10 col-xl-8 text-center">
-							<h3 class="text-center">Sea view suite</h3>
-							<p class="text-center mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-5 btn btn-primary" href="javascript:void(0)">Ver Habitación</a>
+							<h3 class="text-center">Habitaciones sencillas</h3>
+							<p class="text-center mt-4">Habitaciones sencillas para una o dos personas con mucho confort y frescura para descansar comodamente.</p>
+							<a class="mt-5 btn btn-primary" href="javascript:void(0)">Reservar</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-6 px-0 order-first order-xl-last mt-5 mt-xl-0">
 					<div class="img-wrap" id="rev-2">
 						<img src="{{asset('assets/img/fotos/08.jpg')}}" alt="">
-						<div class="text-element-over">sea view suite</div>
+						{{-- <div class="text-element-over">sea view suite</div> --}}
 					</div>
 				</div>
 			</div>
@@ -254,24 +254,24 @@
 					<div class="services-box text-center">
 						<img src="{{asset('assets/img/1.svg')}}" alt="">
 						<h5 class="mt-2">Libre de Humo</h5>
-						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
+						<p class="mt-3">Somos un espacio libre de humo de tabaco.</p>
+						{{-- <a class="mt-1 btn btn-primary" href="services.html">read more</a> --}}
 					</div>
 				</div>
 				<div class="col-sm-6 col-lg-4 mt-5 mt-sm-0">
 					<div class="services-box text-center">
 						<img src="{{asset('assets/img/2.svg')}}" alt="">
 						<h5 class="mt-2">Zona de estar</h5>
-						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
+						<p class="mt-3">Contamos con zonas de relajacion para descansar y compartir con otros visitantes</p>
+						{{-- <a class="mt-1 btn btn-primary" href="services.html">read more</a> --}}
 					</div>
 				</div>
 				<div class="col-sm-6 col-lg-4 mt-5 mt-lg-0">
 					<div class="services-box text-center">
 						<img src="{{asset('assets/img/6.svg')}}" alt="">
 						<h5 class="mt-2">Restaurante</h5>
-						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
+						<p class="mt-3">Deliciosas comidas que deleitan tu paladar y te permiten conocer la gastronomia local.</p>
+						{{-- <a class="mt-1 btn btn-primary" href="services.html">read more</a> --}}
 					</div>
 				</div>
 				{{-- <div class="col-sm-6 col-lg-4 mt-5">
@@ -362,8 +362,8 @@
 						<img src="{{asset('assets/img/fotos/10.jpeg')}}" alt="">
 						<div class="room-box-in">
 							<h5 class="">Habitacion 1</h5>
-							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 130$</a>
+							{{-- <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p> --}}
+							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reservar</a>
                             {{-- iconos de servicios --}}
 							{{-- <div class="room-icons mt-4 pt-4">
 								<img src="{{asset('assets/img/5.svg')}}" alt="">
@@ -388,8 +388,8 @@
 						<img src="{{asset('assets/img/fotos/09.jpeg')}}" alt="">
 						<div class="room-box-in">
 							<h5 class="">Habitacion 2</h5>
-							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 80$</a>
+							{{-- <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p> --}}
+							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reservar</a>
                             {{-- iconos de servicios --}}
 							{{-- <div class="room-icons mt-4 pt-4">
 								<img src="{{asset('assets/img/4.svg')}}" alt="">
@@ -414,8 +414,8 @@
 						<img src="{{asset('assets/img/fotos/07.jpeg')}}" alt="">
 						<div class="room-box-in">
 							<h5 class="">Habitacion 1</h5>
-							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 110$</a>
+							{{-- <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p> --}}
+							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reservar</a>
                             {{-- iconos servicios --}}
 							{{-- <div class="room-icons mt-4 pt-4">
 								<img src="img/5.svg" alt="">
@@ -440,8 +440,8 @@
 						<img src="{{asset('assets/img/fotos/08.jpg')}}" alt="">
 						<div class="room-box-in">
 							<h5 class="">big Apartment</h5>
-							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 160$</a>
+							{{-- <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p> --}}
+							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reservar</a>
                             {{-- iconos servicios --}}
 							{{-- <div class="room-icons mt-4 pt-4">
 								<img src="img/5.svg" alt="">
@@ -466,20 +466,20 @@
 						<div id="owl-sep-1" class="owl-carousel owl-theme">
 							<div class="item">
 								<div class="quote-sep">
-									<h4>"Chilling out on the bed in your hotel room watching television, while wearing your own pajamas, is sometimes the best part of a vacation."</h4>
+									<h4>"Es un gran hotel, muy comodo, muy fresco el lugar ideal para descansar despues de una larga caminata por el desierto"</h4>
 									<h6>Jason Salvatore</h6>
 								</div>
 							</div>
 							<div class="item">
 								<div class="quote-sep">
-									<h4>"Every good day starts off with a cappuccino, and there's no place better to enjoy some frothy caffeine than at the Thalia Hotel."</h4>
-									<h6>Terry Mitchell</h6>
+									<h4>"Me encanto la atención, los encargados son muy amables y muy serviciales lo super recomiendo"</h4>
+									<h6>Jose Rojas</h6>
 								</div>
 							</div>
 							<div class="item">
 								<div class="quote-sep">
-									<h4>"I still enjoy traveling a lot. I mean, it amazes me that I still get excited in hotel rooms just to see what kind of shampoo they've left me."</h4>
-									<h6>Michael Brighton</h6>
+									<h4>"El lugar es muy bonito, la comida es deliciosa y lo mejor es que esta en el pueblo y a la vez cerca al desierto"</h4>
+									<h6>Maria Sanchez</h6>
 								</div>
 							</div>
 						</div>
@@ -520,9 +520,9 @@
 				<div class="col-xl-6 p-0 align-self-center">
 					<div class="row justify-content-center">
 						<div class="col-9 pt-4 pt-xl-0 pb-5 pb-xl-0 text-center">
-							<h5 class="">beach restaurant</h5>
-							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="javascript:void(0)">explore</a>
+							<h5 class="">Restaurante</h5>
+							<p class="mt-3">Deliciosas comidas tradicionales para nuestros visitantes</p>
+							<a class="mt-1 btn btn-primary" href="javascript:void(0)">Reservar</a>
 						</div>
 					</div>
 				</div>
@@ -531,9 +531,9 @@
 				<div class="col-xl-6 p-0 align-self-center">
 					<div class="row justify-content-center">
 						<div class="col-9 pt-4 pt-xl-0 pb-5 pb-xl-0 text-center">
-							<h5 class="">pool restaurant</h5>
-							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="javascript:void(0)">explore</a>
+							<h5 class="">Restaurante</h5>
+							<p class="mt-3">Prueba la gastronomia local mientras te hospedas en el mejor hostal de la ciudad</p>
+							<a class="mt-1 btn btn-primary" href="javascript:void(0)">Reservar</a>
 						</div>
 					</div>
 				</div>
@@ -553,64 +553,64 @@
 					<div class="subtitle with-line text-center mb-4">Hostal Sarita</div>
 					<h3 class="text-center padding-bottom-small">Contactanos</h3>
 				</div>
-				<div class="section clearfix"></div>
-				<div class="col-md-6 col-lg-4">
-					<div class="address">
-						<div class="address-in text-left">
-							<p class="color-black">Address:</p>
-						</div>
-						<div class="address-in text-right">
-							<p>Avenue Str. 328</p>
-						</div>
-					</div>
-					<div class="address">
-						<div class="address-in text-left">
-							<p class="color-black">City:</p>
-						</div>
-						<div class="address-in text-right">
-							<p>Thessaloniki</p>
-						</div>
-					</div>
-					<div class="address">
-						<div class="address-in text-left">
-							<p class="color-black">Check-In:</p>
-						</div>
-						<div class="address-in text-right">
-							<p>14:00 pm</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-4">
-					<div class="address">
-						<div class="address-in text-left">
-							<p class="color-black">Phone:</p>
-						</div>
-						<div class="address-in text-right">
-							<p>+21 60 374 7537</p>
-						</div>
-					</div>
-					<div class="address">
-						<div class="address-in text-left">
-							<p class="color-black">Email:</p>
-						</div>
-						<div class="address-in text-right">
-							<p>info@hotel.com</p>
-						</div>
-					</div>
-					<div class="address">
-						<div class="address-in text-left">
-							<p class="color-black">Check-Out:</p>
-						</div>
-						<div class="address-in text-right">
-							<p>11:00 am</p>
-						</div>
-					</div>
-				</div>
-				<div class="section clearfix"></div>
-				<div class="col-md-8 text-center mt-5" data-scroll-reveal="enter bottom move 50px over 0.7s after 0.2s">
-					<p class="mb-0"><em>available at: 8am - 10pm</em></p>
-					<h2 class="text-opacity">+21 60 374 7537</h2>
-				</div>
+                <div class="section clearfix"></div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="address">
+                        <div class="address-in text-left">
+                            <p class="color-black">Direccion:</p>
+                        </div>
+                        <div class="address-in text-right">
+                            <p>Cra. 9 4-111 a4-1</p>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <div class="address-in text-left">
+                            <p class="color-black">Municipio:</p>
+                        </div>
+                        <div class="address-in text-right">
+                            <p>Villavieja/Huila</p>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <div class="address-in text-left">
+                            <p class="color-black">Check-In:</p>
+                        </div>
+                        <div class="address-in text-right">
+                            <p>sugeto a disponibilidad</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="address">
+                        <div class="address-in text-left">
+                            <p class="color-black">Celular:</p>
+                        </div>
+                        <div class="address-in text-right">
+                            <p>+57 313 3335234</p>
+                        </div>
+                    </div>
+                    {{-- <div class="address">
+                        <div class="address-in text-left">
+                            <p class="color-black">Email:</p>
+                        </div>
+                        <div class="address-in text-right">
+                            <p>info@hotel.com</p>
+                        </div>
+                    </div> --}}
+                    <div class="address">
+                        <div class="address-in text-left">
+                            <p class="color-black">Check-Out:</p>
+                        </div>
+                        <div class="address-in text-right">
+                            <p>11:00 am</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section clearfix"></div>
+                <div class="col-md-8 text-center mt-5" data-scroll-reveal="enter bottom move 50px over 0.7s after 0.2s">
+                    <p class="mb-0"><em>Horario de atencion: las 24 horas del dia</em></p>
+                    <h2 class="text-opacity">+57 313 3335234</h2>
+                    <a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reserva</a>
 			</div>
 		</div>
 	</div>

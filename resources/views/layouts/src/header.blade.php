@@ -3,19 +3,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 px-0 px-md-3 pl-1 py-3">
-                    <span class="call-top">call us:</span> <a href="#" class="call-top">(381) 60 422 4256</a>
+                    <span class="call-top">Contactanos:</span> <a href="#" class="call-top">313 3335234</a>
                 </div>
                 <div class="col-6 px-0 px-md-3 py-3 text-right">
-                    <a href="#" class="social-top">fb</a>
-                    <a href="#" class="social-top">tw</a>
-                    <div class="lang-wrap">
+                    <a href="https://www.facebook.com/Hostal-sarita-Desierto-la-tatacoa-102922451635051" class="social-top">FB</a>
+                    {{-- <a href="#" class="social-top">tw</a> --}}
+                    {{-- <div class="lang-wrap">
                         eng
                         <ul>
                             <li><a href="#">ger</a></li>
                             <li><a href="#">rus</a></li>
                             <li><a href="#">ser</a></li>
                         </ul>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -42,16 +42,16 @@
                 </ul>
             </li> --}}
             <li>
-                <a class="{{ Request::routeIs('servicios') ? 'curent-page' : ''}}" href="{{route('servicios')}}">Services</a>
+                <a class="{{ Request::routeIs('servicios') ? 'curent-page' : ''}}" href="{{route('servicios')}}">Servicios</a>
             </li>
             <li>
-                <a href="about.html">about us</a>
+                <a class="{{ Request::routeIs('about') ? 'curent-page' : ''}}" href="{{route('about')}}">Sobre nosotros</a>
             </li>
-            <li>
+            {{-- <li>
                 <a href="blog.html">news</a>
-            </li>
+            </li> --}}
             <li>
-                <a href="contact.html">contact</a>
+                <a class="{{ Request::routeIs('contactanos') ? 'curent-page' : ''}}" href="{{route('contactanos')}}">Contactanos</a>
             </li>
         </ul>
     </div>

@@ -3,19 +3,19 @@
         <div class="row">
             <div class="col-md-3 text-center text-md-left">
                 <h1 class="font-weight-bold" style="font-size: 2rem; color:#fff;">Hostal Sarita</h1>
-                <p class="color-grey mt-4">Avenue Street 3284<br>Thessaloniki</p>
+                <p class="color-grey mt-4">Avenue Street 3284<br>Villavieja/Huila</p>
             </div>
             <div class="col-md-4 text-center text-md-left">
-                <h6 class="color-white mb-3">information</h6>
-                <a href="tandc.html">terms &amp; conditions</a>
-                <a href="services.html">services</a>
-                <a href="restaurant.html">restaurant</a>
-                <a href="testimonials.html">testimonials</a>
-                <a href="gallery.html">gallery &amp; images</a>
+                {{-- <h6 class="color-white mb-3">information</h6> --}}
+                {{-- <a href="tandc.html">terms &amp; conditions</a> --}}
+                <a href="{{route('servicios')}}">servicios</a>
+                <a href="{{route('contactanos')}}">contactanos</a>
+                <a href="{{route('habitaciones')}}">habitaciones</a>
+                {{-- <a href="testimonials.html">testimonials</a> --}}
             </div>
             <div class="col-md-5 mt-4 mt-md-0 text-center text-md-left logos-footer">
-                <h6 class="color-white mb-3">about us</h6>
-                <p class="color-grey mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                <h6 class="color-white mb-3">sobre nosotros</h6>
+                <p class="color-grey mb-4">Somos un Hostal muy reconocido en el municipio de Villavieja por nuestros servicios de hospedaje, alimentacion y planes turisticos para nuestros visitantes.</p>
                 <img src="img/logos/1.png" alt="">
                 <img src="img/logos/2.png" alt="">
                 <img src="img/logos/3.png" alt="">
@@ -28,12 +28,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center text-md-left mb-2 mb-md-0">
-                <p>2019 © Thalia. All rights reserved.</p>
+                <p>2021 © Hostal Sarita. All rights reserved.</p>
             </div>
             <div class="col-md-6 text-center text-md-right">
-                <a href="#" class="social-footer-bottom">facebook</a>
-                <a href="#" class="social-footer-bottom">twitter</a>
-                <a href="#" class="social-footer-bottom">instagram</a>
+                <a href="https://www.facebook.com/Hostal-sarita-Desierto-la-tatacoa-102922451635051" class="social-footer-bottom">facebook</a>
+                {{-- <a href="#" class="social-footer-bottom">twitter</a> --}}
+                {{-- <a href="#" class="social-footer-bottom">instagram</a> --}}
             </div>
         </div>
     </div>

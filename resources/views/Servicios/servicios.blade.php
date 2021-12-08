@@ -5,14 +5,14 @@
 @section('content')
 <div class="section big-55-height over-hide">
 
-    <div class="parallax parallax-top" style="background-image: url('{{asset('assets/img/fotos/15.jpeg')}}')"></div>
+    <div class="parallax parallax-top" style="background-image: url('{{asset('assets/img/fotos/28.jpg')}}')"></div>
     <div class="dark-over-pages"></div>
 
     <div class="hero-center-section pages">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 parallax-fade-top">
-                    <div class="hero-text">Rooms Gallery</div>
+                    <div class="hero-text">Nuestros servicios</div>
                 </div>
             </div>
         </div>
@@ -26,37 +26,37 @@
                 <div class="col-6 col-sm-6 col-md-4 col-lg-2 text-center">
                     <div class="amenities">
                         <img src="{{asset('assets/img/icons/1.svg')}}" alt="">
-                        <p>no smoking</p>
+                        <p>Libre de humo de tabaco</p>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-2 text-center">
                     <div class="amenities">
                         <img src="{{asset('assets/img/icons/2.svg')}}" alt="">
-                        <p>big beds</p>
+                        <p>Zona de relax</p>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-2 text-center mt-4 mt-md-0">
                     <div class="amenities">
-                        <img src="{{asset('assets/img/icons/3.svg')}}" alt="">
-                        <p>yacht riding</p>
+                        <img src="{{asset('assets/img/icons/6.svg')}}" alt="">
+                        <p>Desayunos</p>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-2 text-center mt-4 mt-lg-0">
                     <div class="amenities">
                         <img src="{{asset('assets/img/icons/4.svg')}}" alt="">
-                        <p>free drinks</p>
+                        <p>Bebidas</p>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-2 text-center mt-4 mt-lg-0">
                     <div class="amenities">
                         <img src="{{asset('assets/img/icons/5.svg')}}" alt="">
-                        <p>swimming pool</p>
+                        <p>Tour a manantiales en el desierto</p>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-2 text-center mt-4 mt-lg-0">
                     <div class="amenities">
                         <img src="{{asset('assets/img/icons/6.svg')}}" alt="">
-                        <p>room breakfast</p>
+                        <p>Almuerzos</p>
                     </div>
                 </div>
             </div>
@@ -87,10 +87,10 @@
                             <div class="item">
                                 <img src="{{asset('assets/img/fotos/20.jpg')}}" alt="">
                             </div>
-                            {{-- <div class="item">
-                                <img src="img/gallery/6.jpg" alt="">
-                            </div>
                             <div class="item">
+                                <img src="{{asset('assets/img/fotos/21.jpg')}}" alt="">
+                            </div>
+                            {{-- <div class="item">
                                 <img src="img/gallery/7.jpg" alt="">
                             </div>
                             <div class="item">
@@ -104,36 +104,36 @@
                     <div class="section">
                         <div id="rooms-sync2" class="owl-carousel">
                             <div class="item">
-                                <img src="img/gallery/2-s.jpg" alt="">
+                                <img src="{{asset('assets/img/fotos/15.jpeg')}}" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/gallery/3-s.jpg" alt="">
+                                <img src="{{asset('assets/img/fotos/desierto.jpeg')}}" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/gallery/4-s.jpg" alt="">
+                                <img src="{{asset('assets/img/fotos/06.jpeg')}}" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/gallery/5-s.jpg" alt="">
+                                <img src="{{asset('assets/img/fotos/20.jpg')}}" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/gallery/6-s.jpg" alt="">
+                                <img src="{{asset('assets/img/fotos/21.jpg')}}" alt="">
+                            </div>
+                            {{-- <div class="item">
+                                <img src="{{asset('assets/img/fotos/26.jpg')}}" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/gallery/7-s.jpg" alt="">
+                                <img src="{{asset('assets/img/fotos/27.jpg')}}" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/gallery/8-s.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="img/gallery/9-s.jpg" alt="">
-                            </div>
+                                <img src="{{asset('assets/img/fotos/28.jpg')}}" alt="">
+                            </div> --}}
                         </div>
                     </div>
                     <div class="section pt-5">
-                        <h5>discription</h5>
-                        <p class="mt-3">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+                        <h5>Descripción</h5>
+                        <p class="mt-3">Ofrecemos diferentes servicios para nuestros visitantes para que vivan una increible y magica experiencia para aquellos aventureros que desean conocer el DESIERTO DE LA TATACOA.</p>
                     </div>
-                    <div class="section pt-4">
+                    {{-- <div class="section pt-4">
                         <div class="row">
                             <div class="col-12">
                                 <h5 class="mb-3">Overview</h5>
@@ -151,11 +151,11 @@
                                 <p><strong class="color-black">Swimming pool:</strong> Yes</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="section pt-4">
+                    </div> --}}
+                    {{-- <div class="section pt-4">
                         <h5>Features</h5>
                         <p class="mt-3">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
-                    </div>
+                    </div> --}}
                 </div>
                 {{-- <div class="col-lg-4 order-first order-lg-last">
                     <div class="section background-dark p-4">
@@ -220,7 +220,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-4" data-scroll-reveal="enter bottom move 50px over 0.7s after 0.2s">
                 <div class="room-box background-grey">
-                    <div class="room-name">suite tanya</div>
+                    <div class="room-name">Delicias</div>
                     <div class="room-per">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -228,23 +228,23 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <img src="img/room3.jpg" alt="">
+                    <img src="{{asset('assets/img/fotos/13.jpeg')}}" alt="">
                     <div class="room-box-in">
-                        <h5 class="">pool suite</h5>
-                        <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-                        <a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 130$</a>
+                        <h5 class="">Restaurante</h5>
+                        <p class="mt-3">Tenemos servicio de restaurante con deliciosas comidas para nuestros visitantes.</p>
+                        {{-- <a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 130$</a> --}}
                         <div class="room-icons mt-4 pt-4">
-                            <img src="img/5.svg" alt="">
-                            <img src="img/2.svg" alt="">
-                            <img src="img/3.svg" alt="">
-                            <a href="rooms-gallery.html">full info</a>
+                            <img src="{{asset('assets/img/1.svg')}}" alt="">
+                            <img src="{{asset('assets/img/2.svg')}}" alt="">
+                            <img src="{{asset('assets/img/6.svg')}}" alt="">
+                            {{-- <a href="rooms-gallery.html">full info</a> --}}
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mt-lg-0" data-scroll-reveal="enter bottom move 50px over 0.7s after 0.4s">
                 <div class="room-box background-grey">
-                    <div class="room-name">suite helen</div>
+                    <div class="room-name">Tradicion</div>
                     <div class="room-per">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -252,23 +252,23 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-o"></i>
                     </div>
-                    <img src="img/room4.jpg" alt="">
+                    <img src="{{asset('assets/img/fotos/15.jpeg')}}" alt="">
                     <div class="room-box-in">
-                        <h5 class="">small room</h5>
-                        <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-                        <a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 80$</a>
+                        <h5 class="">Grupo musical regional</h5>
+                        <p class="mt-3">Contamos con un grupo musical para amenizar esos momentos magicos que quedan siempre para el recuerdo.</p>
+                        {{-- <a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 80$</a> --}}
                         <div class="room-icons mt-4 pt-4">
-                            <img src="img/4.svg" alt="">
-                            <img src="img/2.svg" alt="">
-                            <img src="img/6.svg" alt="">
-                            <a href="rooms-gallery.html">full info</a>
+                            <img src="{{asset('assets/img/1.svg')}}" alt="">
+                            <img src="{{asset('assets/img/2.svg')}}" alt="">
+                            <img src="{{asset('assets/img/6.svg')}}" alt="">
+                            {{-- <a href="rooms-gallery.html">full info</a> --}}
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mt-lg-0" data-scroll-reveal="enter bottom move 50px over 0.7s after 0.6s">
                 <div class="room-box background-grey">
-                    <div class="room-name">suite andrea</div>
+                    <div class="room-name">Aventura</div>
                     <div class="room-per">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -276,16 +276,16 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <img src="img/room5.jpg" alt="">
+                    <img src="{{asset('assets/img/fotos/28.jpg')}}" alt="">
                     <div class="room-box-in">
-                        <h5 class="">Apartment</h5>
-                        <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-                        <a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 110$</a>
+                        <h5 class="">Guianza turistica</h5>
+                        <p class="mt-3">Tenemos planes para aquellos aventureros que quieren disfrutar del Desierto de la Tatacoa.</p>
+                        {{-- <a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 110$</a> --}}
                         <div class="room-icons mt-4 pt-4">
-                            <img src="img/5.svg" alt="">
-                            <img src="img/2.svg" alt="">
-                            <img src="img/3.svg" alt="">
-                            <a href="rooms-gallery.html">full info</a>
+                            <img src="{{asset('assets/img/1.svg')}}" alt="">
+                            <img src="{{asset('assets/img/2.svg')}}" alt="">
+                            <img src="{{asset('assets/img/6.svg')}}" alt="">
+                            {{-- <a href="rooms-gallery.html">full info</a> --}}
                         </div>
                     </div>
                 </div>
