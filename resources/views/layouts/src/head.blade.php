@@ -21,18 +21,18 @@
 
 	<!-- CSS
 	================================================== -->
-	<link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}"/>
-	<link rel="stylesheet" href="{{asset('assets/css/font-awesome.min.css')}}"/>
-	<link rel="stylesheet" href="{{asset('assets/css/ionicons.min.css')}}"/>
-	<link rel="stylesheet" href="{{asset('assets/css/datepicker.css')}}"/>
-	<link rel="stylesheet" href="{{asset('assets/css/jquery.fancybox.min.css')}}"/>
-	<link rel="stylesheet" href="{{asset('assets/css/owl.carousel.css')}}"/>
-	<link rel="stylesheet" href="{{asset('assets/css/owl.transitions.css')}}"/>
-	<link rel="stylesheet" href="{{asset('assets/css/style.css')}}"/>
-	<link rel="stylesheet" href="{{asset('assets/css/colors/color.css')}}"/>
+	<link rel="stylesheet" href="{{secure_asset('assets/css/bootstrap.min.css')}}"/>
+	<link rel="stylesheet" href="{{secure_asset('assets/css/font-awesome.min.css')}}"/>
+	<link rel="stylesheet" href="{{secure_asset('assets/css/ionicons.min.css')}}"/>
+	<link rel="stylesheet" href="{{secure_asset('assets/css/datepicker.css')}}"/>
+	<link rel="stylesheet" href="{{secure_asset('assets/css/jquery.fancybox.min.css')}}"/>
+	<link rel="stylesheet" href="{{secure_asset('assets/css/owl.carousel.css')}}"/>
+	<link rel="stylesheet" href="{{secure_asset('assets/css/owl.transitions.css')}}"/>
+	<link rel="stylesheet" href="{{secure_asset('assets/css/style.css')}}"/>
+	<link rel="stylesheet" href="{{secure_asset('assets/css/colors/color.css')}}"/>
 
     <!-- myStyles -->
-    <link rel="stylesheet" href="{{asset('assets/css/myStyles.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('assets/css/myStyles.css')}}">
 
 	<!-- Favicons
 	================================================== -->
