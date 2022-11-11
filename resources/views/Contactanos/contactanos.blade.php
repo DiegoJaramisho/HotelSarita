@@ -125,7 +125,7 @@
             <div class="col-md-8 text-center mt-5" data-scroll-reveal="enter bottom move 50px over 0.7s after 0.2s">
                 <p class="mb-0"><em>Horario de atencion: las 24 horas del dia</em></p>
                 <h2 class="text-opacity">+57 313 3335234</h2>
-            <a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reserva</a>
+            <a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reserva</a>
 
             </div>
         </div>

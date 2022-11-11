@@ -178,7 +178,7 @@
 						<div class="col-10 col-xl-8 text-center">
 							<h3 class="text-center">Habitaciones dobles</h3>
 							<p class="text-center mt-4">Contamos con habitaciones con dos camas perfectamente hubicadas con aire acondicionado, ultracomodas</p>
-							<a class="mt-5 btn btn-primary" href="javascript:void(0)">Reservar</a>
+							<a class="mt-5 btn btn-primary" href="https://wa.me/+573133335234">Reservar</a>
 						</div>
 					</div>
 				</div>
@@ -189,7 +189,7 @@
 						<div class="col-10 col-xl-8 text-center">
 							<h3 class="text-center">Habitaciones sencillas</h3>
 							<p class="text-center mt-4">Habitaciones sencillas para una o dos personas con mucho confort y frescura para descansar comodamente.</p>
-							<a class="mt-5 btn btn-primary" href="javascript:void(0)">Reservar</a>
+							<a class="mt-5 btn btn-primary" href="https://wa.me/+573133335234">Reservar</a>
 						</div>
 					</div>
 				</div>
@@ -363,7 +363,7 @@
 						<div class="room-box-in">
 							<h5 class="">Habitacion 1</h5>
 							{{-- <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p> --}}
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reservar</a>
+							<a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reservar</a>
                             {{-- iconos de servicios --}}
 							{{-- <div class="room-icons mt-4 pt-4">
 								<img src="{{asset('assets/img/5.svg')}}" alt="">
@@ -389,7 +389,7 @@
 						<div class="room-box-in">
 							<h5 class="">Habitacion 2</h5>
 							{{-- <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p> --}}
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reservar</a>
+							<a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reservar</a>
                             {{-- iconos de servicios --}}
 							{{-- <div class="room-icons mt-4 pt-4">
 								<img src="{{asset('assets/img/4.svg')}}" alt="">
@@ -415,7 +415,7 @@
 						<div class="room-box-in">
 							<h5 class="">Habitacion 1</h5>
 							{{-- <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p> --}}
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reservar</a>
+							<a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reservar</a>
                             {{-- iconos servicios --}}
 							{{-- <div class="room-icons mt-4 pt-4">
 								<img src="img/5.svg" alt="">
@@ -441,7 +441,7 @@
 						<div class="room-box-in">
 							<h5 class="">big Apartment</h5>
 							{{-- <p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p> --}}
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reservar</a>
+							<a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reservar</a>
                             {{-- iconos servicios --}}
 							{{-- <div class="room-icons mt-4 pt-4">
 								<img src="img/5.svg" alt="">
@@ -522,7 +522,7 @@
 						<div class="col-9 pt-4 pt-xl-0 pb-5 pb-xl-0 text-center">
 							<h5 class="">Restaurante</h5>
 							<p class="mt-3">Deliciosas comidas tradicionales para nuestros visitantes</p>
-							<a class="mt-1 btn btn-primary" href="javascript:void(0)">Reservar</a>
+							<a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reservar</a>
 						</div>
 					</div>
 				</div>
@@ -533,7 +533,7 @@
 						<div class="col-9 pt-4 pt-xl-0 pb-5 pb-xl-0 text-center">
 							<h5 class="">Restaurante</h5>
 							<p class="mt-3">Prueba la gastronomia local mientras te hospedas en el mejor hostal de la ciudad</p>
-							<a class="mt-1 btn btn-primary" href="javascript:void(0)">Reservar</a>
+							<a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reservar</a>
 						</div>
 					</div>
 				</div>
@@ -610,7 +610,7 @@
                 <div class="col-md-8 text-center mt-5" data-scroll-reveal="enter bottom move 50px over 0.7s after 0.2s">
                     <p class="mb-0"><em>Horario de atencion: las 24 horas del dia</em></p>
                     <h2 class="text-opacity">+57 313 3335234</h2>
-                    <a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reserva</a>
+                    <a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reserva</a>
 			</div>
 		</div>
 	</div>

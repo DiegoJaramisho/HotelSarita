@@ -75,7 +75,7 @@
                     <div class="room-box-in">
                         <h5 class="">Habitacion doble</h5>
                         <p class="mt-3">Habitacion para mas de dos personas</p>
-                        <a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reserva</a>
+                        <a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reserva</a>
                         {{-- <div class="room-icons mt-4 pt-4">
                             <img src="img/5.svg" alt="">
                             <img src="img/2.svg" alt="">
@@ -100,7 +100,7 @@
                     <div class="room-box-in">
                         <h5 class="">Habitacion sencilla</h5>
                         <p class="mt-3">Habitacion para una o dos personas.</p>
-                        <a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reserva</a>
+                        <a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reserva</a>
                         {{-- <div class="room-icons mt-4 pt-4">
                             <img src="img/4.svg" alt="">
                             <img src="img/2.svg" alt="">
@@ -125,7 +125,7 @@
                     <div class="room-box-in">
                         <h5 class="">Habitacion doble</h5>
                         <p class="mt-3">Habitacion para mas de dos personas</p>
-                        <a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reserva</a>
+                        <a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reserva</a>
                         {{-- <div class="room-icons mt-4 pt-4">
                             <img src="img/5.svg" alt="">
                             <img src="img/2.svg" alt="">
@@ -150,7 +150,7 @@
                     <div class="room-box-in">
                         <h5 class="">Habitacion sencilla</h5>
                         <p class="mt-3">Habitacion para una o dos personas.</p>
-                        <a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reserva</a>
+                        <a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reserva</a>
                         {{-- <div class="room-icons mt-4 pt-4">
                             <img src="img/5.svg" alt="">
                             <img src="img/2.svg" alt="">
@@ -175,7 +175,7 @@
                     <div class="room-box-in">
                         <h5 class="">Habitacion sencilla</h5>
                         <p class="mt-3">Habitacion para una o dos personas.</p>
-                        <a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reserva</a>
+                        <a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reserva</a>
                         {{-- <div class="room-icons mt-4 pt-4">
                             <img src="img/5.svg" alt="">
                             <img src="img/2.svg" alt="">
@@ -200,7 +200,7 @@
                     <div class="room-box-in">
                         <h5 class="">Habitacion sencilla</h5>
                         <p class="mt-3">Habitacion para una o dos personas.</p>
-                        <a class="mt-1 btn btn-primary" href="rooms-gallery.html">Reserva</a>
+                        <a class="mt-1 btn btn-primary" href="https://wa.me/+573133335234">Reserva</a>
                         {{-- <div class="room-icons mt-4 pt-4">
                             <img src="img/5.svg" alt="">
                             <img src="img/2.svg" alt="">
