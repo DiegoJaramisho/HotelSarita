@@ -2,7 +2,7 @@ FROM php:7.4-apache
 
 LABEL maintainer="DaKa"
 ENV TZ=America/Bogota
-COPY ./docker/portafolio.conf /etc/apache2/sites-available/000-default.conf
+COPY ./Docker/hostalSarita.conf /etc/apache2/sites-available/000-default.conf
 WORKDIR /var/www/html
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime  \
     && a2enmod rewrite \
