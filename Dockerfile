@@ -25,5 +25,5 @@ COPY ./app /var/www/html
 COPY ./app/.env.example .env
 RUN  composer install --optimize-autoloader --no-dev
 RUN  chmod -R ug+rwx storage bootstrap/cache \
-    && chgrp -R www-data storage bootstrap/cache 
-    # && php artisan storage:link && php artisan route:cache && php artisan view:cache
+    && chgrp -R www-data storage bootstrap/cache \
+    && php artisan storage:link && php artisan route:cache && php artisan view:cache
