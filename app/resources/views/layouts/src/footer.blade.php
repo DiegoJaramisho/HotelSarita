@@ -28,7 +28,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center text-md-left mb-2 mb-md-0">
-                <p>2021 © Hostal Sarita. All rights reserved.</p>
+                <p><script>document.write(new Date().getFullYear())</script> © Hostal Sarita. All rights reserved.</p>
             </div>
             <div class="col-md-6 text-center text-md-right">
                 <a href="https://www.facebook.com/Hostal-sarita-Desierto-la-tatacoa-102922451635051" class="social-footer-bottom">facebook</a>
